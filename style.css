@@ -41,7 +41,6 @@ body{
 .principal__section{
     display: flex;
     flex-direction: column;
-
 }
 
 .principal__div{
@@ -119,7 +118,8 @@ body{
         gap: 5px;
         padding-top: 4%;
         padding-bottom: 4%;
-        margin: 5%;
+        margin: 5% 5%;
+        width: 90vw;
     }
     .principal__h1{
     font-size: 2rem;
@@ -159,13 +159,30 @@ body{
 
 @media (min-width:350px) and (max-width:800px) {
     .principal{
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0%;
         gap: 5px;
         padding-top: 4%;
         padding-bottom: 2%;
-        margin: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 85vh;
     }
+    .principal__img{
+        width: 70%;
+    } 
+    .principal__section{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+    }    
+    .principal__div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 0px;    
     .principal__h1{
         font-size: 2rem;
     }
