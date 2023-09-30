@@ -55,16 +55,16 @@ body{
 
 .principal__h1{
     color: var(--cor-letras);
-    font-size: 45px;
+    font-size: 2.81rem;
 }
 
 .principal__p{
     color: var(--cor-letras);
-    font-size: 22px;
+    font-size: 1.37rem;
 }
 
 .principal__a{
-    font-size: 22px;
+    font-size: 1.37rem;
     color: var(--cor-letras);
 }
 
@@ -107,7 +107,75 @@ body{
     border: var(--cor-fundo) 1px solid;
     cursor: pointer;
     background-color: var(--cor-letras);
-    font-size: 16px;
+    font-size: 0.87rem;
     font-family: var(--font-geral);
     color: var(--cor-fundo);
+}
+
+@media (max-width:349px) {
+        .principal{
+        flex-direction: column;
+        padding: 0%;
+        gap: 5px;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin: 5%;
+    }
+    .principal__h1{
+    font-size: 2rem;
+    }
+
+    .principal__p{
+        color: var(--cor-letras);
+        font-size: 1rem;
+    }
+    
+    .principal__a{
+        font-size: 1rem;
+        color: var(--cor-letras);
+    }
+    .principal__input{
+        width: 130%;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 4%;
+        border: 2px solid var(--cor-fundo);
+        outline: var(--cor-letras);
+        font-family: var(--font-geral);
+    }
+    .principal__botao{
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        border: var(--cor-fundo) 1px solid;
+        cursor: pointer;
+        background-color: var(--cor-letras);
+        font-size: 0.87rem;
+        font-family: var(--font-geral);
+        color: var(--cor-fundo);
+    }
+    
+}
+
+@media (min-width:350px) and (max-width:800px) {
+    .principal{
+        flex-direction: column;
+        padding: 0%;
+        gap: 5px;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin: 5%;
+    }
+    .principal__h1{
+        font-size: 2rem;
+    }
+    .principal__input{
+        width: 150%;
+        height: 30px;
+        border-radius: 15px;
+        padding-left: 4%;
+        border: 2px solid var(--cor-fundo);
+        outline: var(--cor-letras);
+        font-family: var(--font-geral);
+    }
 }
