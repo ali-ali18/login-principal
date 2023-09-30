@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
+:root{
+    --font-geral: 'Lexend Deca', sans-serif;
+    --cor-fundo: #1C1C1C;
+    --cor-letras:#27FB6B;
+    --cor-a:#14CC60;
+}
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+p,a,h1,label{
+    font-family: var(--font-geral);
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+.principal{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin: 5%;
+    width: 90%;
+    background-color: var(--cor-fundo);
+    border-radius: 20px;
+}
+
+.principal__img{
+    width: 40%;
+}
+
+.principal__section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.principal__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1px;
+}
+
+.principal__h1{
+    color: var(--cor-letras);
+    font-size: 45px;
+}
+
+.principal__p{
+    color: var(--cor-letras);
+    font-size: 22px;
+}
+
+.principal__a{
+    font-size: 22px;
+    color: var(--cor-letras);
+}
+
+.div__espaço{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 5%;
+    padding-bottom: 0%;
+    align-items: center;
+}
+
+.principal__input{
+    width: 180%;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 4%;
+    border: 2px solid var(--cor-fundo);
+    outline: var(--cor-letras);
+    font-family: var(--font-geral);
+}
+.principal__input:focus{
+    border: 2px solid var(--cor-letras);
+}
+
+.principal__div-senha{
+    padding-bottom: 6%;
+    padding-top: 3%;
+}
+
+.principal__label{
+    color: var(--cor-letras);
+    font-size: 14px;
+}
+
+.principal__botao{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: var(--cor-fundo) 1px solid;
+    cursor: pointer;
+    background-color: var(--cor-letras);
+    font-size: 16px;
+    font-family: var(--font-geral);
+    color: var(--cor-fundo);
+}
