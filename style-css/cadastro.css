@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a8a8a8;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.conteiner{
+    display: flex;
+    width: 90%;
+    height: 80%;
+    box-shadow: 5px 5px 10px #00000036;
+    border-radius:20px 20px 20px 20px;
+}
+
+.conteiner-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-color: #1C1C1C;
+    border-radius: 20px 0 0 20px;
+}
+
+.img-width{
+    width: 100%;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 0px 20px 20px 0;
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15%;
+}
+
+.botao-log{
+    display: flex;
+    align-items: center;
+}
+
+.botao-log a {
+    background-color: #27FB6B;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 0.4rem 1rem;
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+.botao-log a:hover {
+    background-color: #27fb6ad0;
+}
+
+
+.title-h1 h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #27FB6B;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-grupo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    margin: 0.3rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 6px #00000031;
+    font-size: 0.8rem;
+}
+
+.input input:focus{
+    outline: #27FB6B 2px solid;
+}
+
+.button button{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #27FB6B;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #27fb6ae5;
+}
+
+.button button{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000;
+}
