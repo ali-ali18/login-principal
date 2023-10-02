@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style-css/style.css">
-    <title>Login</title>
 </head>
 <body>
-    <header></header>
-    <main class="principal">
-        <img class="principal__img" src="img/bro.png" alt="login-movel">
-        <section class="principal__section">
-            <div class="principal__div">
-                <h1 class="principal__h1">Seja bem vindo</h1>
-                <p class="principal__p">caso não tenha uma conta</p>
-                <a class="principal__a" href="cadastro.html">clique aqui</a>
-                <div class="div__espaço">
-                    <input class="principal__input" type="email" id="email" name="Email" required autocomplete="additional-name" placeholder="Seu email"> 
+    <div class="conteiner">
+        <div class="conteiner-img">
+            <img class="img-width" src="img/undraw_showing_support_re_5f2v.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="title">
+                    <div class="title-h1">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="botao-log">
+                        <a href="cadastro.html">Juntar-se</a>
+                    </div>
                 </div>
-                <div class="div__espaço">
-                    <input class="principal__input" type="password" id="senha" required name="senha" placeholder="Sua senha">
+                <div class="input-grupo">
+                    <div class="input">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" required placeholder="Seu email">
+                    </div>
+                    <div class="input">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" required placeholder="Sua senha">
+                    </div>
                 </div>
-                <div class="principal__div-senha">
-                    <input class="principal__input-senha" type="checkbox" id="lembre-senha">
-                    <label class="principal__label" for="checkbox">Lembre minha senha</label>
+                <div class="button">
+                    <button>Confirmar</button>
                 </div>
-                <button class="principal__botao">Entrar</button>
-            </div>
-        </section>
-    </main>
-    <footer></footer>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
